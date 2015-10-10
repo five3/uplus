@@ -742,3 +742,19 @@
 }
 .nextarticle  a{
 	margin: 0 30px;
+}
+.feedback-form{
+    width: 700px;
+    margin: 20px auto;
+}
+.feedback-form p{
+    margin: 20px 30px;
+}
+.feedback-form label{
+    margin: 0 30px;
+    width: 60px;
+}
+.feedback-form input[type=submit]{
+    margin: 0 0 0 365px;
+    width: 60px;
+}

@@ -15,6 +15,7 @@ def fetchall(sql):
 
 def modify(sql):
     cursor = get_cursor()
-    cursor.execute(sql)  
-    transaction.commit()  
+    s = cursor.execute(sql)
+    transaction.commit()
+    return s
 

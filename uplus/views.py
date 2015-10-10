@@ -48,3 +48,15 @@ def detail(request):
 def register(request):
     articles = get_article_list(3)
     return render_to_response('detail.html', locals())
+
+def feedback(request):
+    articles = get_article_list(3)
+    if request.method=='GET':
+        return render_to_response('feedback.html', locals())
+    elif request.method=='POST':
+        data = request.POST
+        if post_feedback(data):
+            msg = '提交反馈成功!'
+        else:
+            msg = '提交反馈失败!'
+        return render_to_response('msg.html', locals())
