@@ -1,0 +1,73 @@
+.error-bg {
+  background-color: rgb(235,235,235);
+}
+.error-icon-box {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.error-icon-box img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -204px;
+}
+.error-tips-box {
+  position: absolute;
+  top: 274px;
+  left: 50%;
+  margin-left: -132px;
+  line-height: 20px;
+}
+
+.error-tips-box h1 {
+  font-size: 20px;
+}
+
+.error-tips-box a {
+  color: rgb(246,182,135);
+  text-decoration: none;
+}
+
+.error-tips-box div {
+  margin-top: 20px;
+}
+
+.not-found-bg {
+  background: url(../img/error/error-bg.png) no-repeat;
+  min-width: 1280px;
+  background-size: cover;
+  background-color: rgb(235,235,235);
+}
+
+.not-found-box {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.not-found-company-log {
+  margin: 50px auto;
+}
+
+.not-found-desc {
+  line-height: 50px;
+}
+
+.not-found-desc h1 {
+  font-size: 32px;
+}
+
+.not-found-desc h2 {
+  font-size: 23px;
+}
+
+.not-found-browser {
+  margin: 40px auto;
+}
+
+.not-found-browser span {
+  display: inline-block;
+  margin:auto 50px;
+}

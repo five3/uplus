@@ -1,0 +1,126 @@
+.add-us-bg {
+  background-color: #3f4754;
+  color: #fff;
+}
+.add-us-box {
+  padding: 0 50px; 
+}
+.add-us-box p {
+  position: relative;
+  z-index: 99;
+}
+
+.add-us-box img {
+  position: relative;
+  z-index: 99;
+}
+.add-us-header {
+  width: 100%;
+  height: 586px;
+  min-width: 1280px;
+  text-align: center;
+}
+
+.company-desc {
+  line-height: 30px;
+  position: relative;
+}
+
+.company-desc .add-link-email,
+.company-desc .add-link-phone {
+  color: rgb(255,154,31);
+}
+
+.company-office-container {
+  padding:100px 0;
+}
+
+.company-office-container .office-icon-left {
+  float: left;
+}
+.company-office-container .office-icon-right {
+  float: right;
+}
+.company-office-container .office-desc-content-left {
+  margin-left: 158px;
+  line-height: 30px;
+}
+
+.company-office-container .office-desc-content-right {
+  margin-right: 158px;
+  line-height: 30px;
+}
+.office-response,
+.office-qulitity,
+.add-marks,
+.other-qulitiy{
+  margin-top: 30px;
+}
+
+.addvertise-office-title {
+  font-size: 20px;
+}
+.office-style-left,
+.office-style-right {
+  margin-top: 60px;
+  position: relative;
+}
+.addvertise-office-title .office-name {
+  color: rgb(255,154,31);
+}
+
+.office-style-right {
+  text-align: right;
+}
+
+.office-desc-content-right {
+  text-align: left;
+  padding-left: 280px;
+}
+.link-line {
+  border: 1px solid rgb(81,89,101);
+  z-index: 1;
+}
+.link-line-1 {
+  height: 702px;
+  position: absolute;
+  transform: rotate(44deg);
+  -moz-transform: rotate(44deg);
+  -webkit-transform: rotate(44deg);
+  -o-transform: rotate(44deg);
+  top: -220px;
+  left: 347px;
+}
+
+.link-line-2 {
+  height: 1170px;
+  position: absolute;
+  transform: rotate(-54deg);
+  -moz-transform: rotate(-54deg);
+  -webkit-transform: rotate(-54deg);
+  -o-transform: rotate(-54deg);
+  top: -148px;
+  left: 593px;
+}
+
+.link-line-3 {
+  height: 1239px;
+  position: absolute;
+  transform: rotate(52deg);
+  -moz-transform: rotate(52deg);
+  -webkit-transform: rotate(52deg);
+  -o-transform: rotate(52deg);
+  top: -141px;
+  left: 572px;
+}
+
+.link-line-4 {
+  height: 1115px;
+  position: absolute;
+  transform: rotate(-57deg);
+  -moz-transform: rotate(-57deg);
+  -webkit-transform: rotate(-57deg);
+  -o-transform: rotate(-57deg);
+  top: -153px;
+  left: 585px;
+}

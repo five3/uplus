@@ -1,0 +1,157 @@
+.case-ico-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.case-content {
+  margin-top: 30px;
+}
+
+.case-bg {
+  background-color: rgb(243, 243, 243);
+}
+.case-icon {
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin: auto;
+  background: url(../img/case/case-logo-icons.png) no-repeat;
+}
+
+.case-line {
+  width: 95%;
+  border-width: 1px;
+  border-color: rgb(214, 214, 214);
+  border-style: dashed;
+  display: block;
+  margin: 40px auto;
+}
+.case-content-right {
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.case-icon-1 {
+  background-position: 0 0 ;
+}
+
+.case-icon-2 {
+  background-position: 0 -128px;
+}
+
+.case-icon-3 {
+  background-position: 0 -256px;
+}
+
+.case-icon-4 {
+  background-position: 0 -384px;
+}
+
+.case-icon-5 {
+  background-position: 0 -512px;
+}
+
+.case-icon-6 {
+  background-position: 0 -640px;
+}
+
+
+.case-icon-7 {
+  background-position: 0 -768px;
+}
+
+.case-icon-8 {
+  background-position: 0 -896px;
+}
+
+.case-icon-9 {
+  background-position: 0 -1024px;
+}
+
+.case-icon-10 {
+  background-position: 0 -1152px;
+}
+
+.case-icon-11 {
+  background-position: 0 -1280px;
+}
+
+.case-icon-12 {
+  background-position: 0 -1408px;
+}
+
+.case-icon-13 {
+  background-position: 0 -1536px;
+}
+
+.case-icon-14 {
+  background-position: 0 -1664px;
+}
+
+.case-icon-15 {
+  background-position: 0 -1792px;
+}
+
+.case-desc-item h3{
+  font-size: 20px;
+  color: #393939;
+}
+
+.case-content-right p {
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.case-user-feel {
+  margin-top: 20px;
+}
+
+.case-zhuyun-server {
+  margin-top: 20px;
+}
+
+.case-use-product {
+  margin-top: 20px;
+}
+
+.caseuse-pro-img .case-use-title {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  text-align: center;
+}
+.case-zhuyun-server a {
+  display: inline-block;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.case-content-right h4 {
+  font-size: 15px;
+  color: #393939;
+}
+
+.frame-share-img {
+  margin-top: 10px;
+  display: block;
+  width: 485px;
+  height: 265px;
+  border-width: 2px;
+  border-color: rgb(214, 214, 214);
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.frame-share-img-1 {
+  background: url(../img/case/case-iframe.png) no-repeat;
+}
+
+.box .header-line {
+  border-bottom: 1px solid rgb(214, 214, 214);
+  padding: 0 0 20px 0;
+}
+
+.box .header-line h2 {
+  font-size: 1.6em;
+  line-height: 35px;
+}

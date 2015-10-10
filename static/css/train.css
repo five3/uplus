@@ -1,0 +1,251 @@
+#train-main-body{
+  background: #F3F3F3;
+}
+#train-main-body .train_top_bg{
+  background: url(/img/train/train_top_bg.png) center center no-repeat;
+  background-size: cover;
+  min-width: 1200px;
+  height: 450px;
+}
+#train-main-body .product_top_img{
+  text-align: center;
+}
+
+#train-main-body .product_top_container{
+  margin-top: 140px;
+}
+
+#train-main-body .product_top_title{
+
+}
+#train-main-body .product_top_title h1{
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  height: 80px;
+  line-height: 80px;
+}
+
+#train-main-body .product_top_title .product_top_desc{
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+#train-main-body .product_top_title .product_top_desc p{
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#train-main-body .train-content{
+  margin-top: -60px;
+}
+
+#train-main-body .nav-tabs{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 830px;
+  height: 60px;
+}
+
+#train-main-body .nav-tabs{
+  border: none;
+}
+#train-main-body .nav-tabs>li{
+  height: 60px;
+}
+
+#train-main-body .nav-tabs>li>a{
+  margin-right: 15px;
+  height: 60px;
+  line-height: 60px;
+  width: 400px;
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: inherit;
+  background: url(/img/train/unactive_bg.png) 0 0 repeat;
+}
+
+#train-main-body .nav-tabs>li.active>a, 
+#train-main-body .nav-tabs>li.active>a:hover, 
+#train-main-body .nav-tabs>li.active>a:focus{
+  border: none;
+  background: none;
+  background-color: #F49831;
+}
+
+#train-main-body .nav>li>a{
+  padding: 0px;
+}
+
+#train-main-body .nav-tabs>li>a:hover, 
+#train-main-body .nav-tabs>li>a:focus{
+  border: none;
+  background: none;
+  background-color: #F49831;
+}
+
+#trainList a{
+  color: #50ACF3;
+}
+
+
+
+.nav a{
+  color: #555;
+}
+
+.train-top-content{
+  line-height: 20px;
+  padding-top: 50px;
+}
+
+.train-title{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+table.train-table, table.train-table tbody, table.train-table tfoot, table.train-table thead, table.train-table tr, table.train-table th, table.train-table td{
+  border: solid 1px #DDDDDD;
+  background: #fff;
+}
+
+table.train-table td.title-td{
+  background: #F1F3F5;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+table.train-table{
+  width: 1200px;
+}
+
+table.train-table td{
+  padding: 5px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+table.train-table a{
+  text-decoration: none;
+  color: #333;
+  padding: 3px 0;
+  display: block;
+}
+table.train-table a:hover{
+  text-decoration: underline;
+}
+table.train-table a.unavailable{
+  text-decoration: none;
+  color: #999;
+  padding: 3px 0;
+  display: block;
+  cursor: default;
+}
+table.train-table a.unavailable:hover{
+  text-decoration: none;
+}
+
+table.train-table .table-th{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#train-detail div.train-detail-content{
+  display: none;
+}
+
+div.train-plan-detail{
+  padding: 0;
+}
+
+.train-detail{
+  position: relative;
+  padding: 80px 0;
+  margin-bottom: 50px;
+}
+
+.train-detail p{
+  line-height: 30px;
+  /*text-indent: 2em;*/
+}
+
+.train-detail p.p-3em{
+  text-indent: 3em;
+}
+
+.train-detail div{
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+.h2-title{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.detail-title{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+div.train-class{
+  padding: 0px;
+  line-height: 0px;
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.train-class ul{
+  width: 100%;
+  height: 50px;
+}
+
+.train-class li{
+  float: left;
+  margin-left: 30px;
+  width: 170px;
+  height: 42px;
+  border: solid 1px #878788;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.train-class li.selected{
+  border-color: #FF9500;
+}
+
+div.train-class li p{
+  line-height: 20px;
+  text-indent: 0em;
+}
+
+a.enter{
+  border: solid 1px #878788;
+  border-radius: 3px;
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a.enter:hover{
+  text-decoration: none;
+}

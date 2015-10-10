@@ -1,0 +1,23 @@
+{% include "head.html" %}
+{% block head%}
+  <div class="header-index" style="height: 81px;">
+   <div class="nav nav-fixed">
+	<div class="box">
+	  <div class="pull-right phone"><i class="icon32"></i><span>182-5606-1101</span></div>
+	  <div class="pull-left logo"></div>
+	  <ul class="clearfix">
+	    <li><a href="/"  class="{{home_active}}">首页</a></li>
+	    <li><a href="/product"  class="{{product_active}}">产品</a></li>
+	    <li><a href="/service"  class="{{service_active}}">服务</a></li>
+	    <li><a href="/template" class="{{template_active}}">模板</a></li>
+	    <li><a href="/about"  class="{{about_active}}">关于我们</a></li>
+	    <li class="btn-box"><a href="/register" target="_blank" class="register-btn btn">立即注册</a></li>
+	  </ul>
+	</div>
+	</div>
+   </div>
+{% endblock %}
+{% block main %}
+
+{% endblock %}
+{% include "foot.html" %}

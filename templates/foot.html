@@ -1,0 +1,72 @@
+<div class="footer" style="clear:both; ">
+<div class="footer-box clearfix">
+  <div class="pull-left links">
+    <div class="company-about clearfix">
+      <dl class="about-item">
+        <dt>了解柚U+</dt>
+        <dd><a href="/about" target="_blank">关于我们</a></dd>
+        <dd><a href="/about#linkUs" target="_blank">联系我们</a></dd>
+        <dd><a href="/about#addUs" target="_blank">加入我们</a></dd>
+      </dl>
+      <dl class="about-item">
+        <dt>媒体报道</dt>
+        <dd><a href="/about#news" target="_blank">公司新闻</a></dd>
+        <dd><a href="/" target="_blank">新浪微博</a></dd>
+        <dd><a href="/videos" target="_blank">优酷频道</a></dd>
+      </dl>
+      <dl class="about-item">
+        <dt>合作伙伴</dt>
+        <dd><a href="http://partner.aliyun.com/detail/shanghaizhuyun.html?spm=5176.200012.1997890777.9.dFR0o4" target="_blank">阿里云云合计划</a></dd>
+        <dd><a href="http://market.aliyun.com/store/55050.html?spm=5176.9000004.0.0.Zyd06O" target="_blank">阿里云市场</a></dd>
+      </dl>
+      <dl class="about-item">
+        <dt>支持</dt>
+        <dd>服务电话：182-5606-1101</dd>
+        <dd>支持邮箱：five3@163.com</dd>
+      </dl>
+      <dl class="about-item">
+        <dt>互联网风向标</dt>
+        {% for i in articles %}
+        	<dd><a href="/article?id={{i.0}}" target="_blank">{{i.1}}</a></dd>
+		{% endfor %}
+      </dl>
+    </div>
+  </div>
+  <div class="pull-right weixin-box">
+    <div class="weixin-container">
+      <div class="weixin-info"><img src="/static/img/index/wechat.png" width="16px" height="16px"><span>微信公众号 </span></div>
+      <div class="weixin-icon"><img src="/static/img/index/qrcode.png" width="86px" height="86px"></div>
+    </div>
+  </div>
+</div>
+<div class="cp-right">Copyright 2015 合肥柚加信息技术有限公司 &nbsp;&nbsp; 皖ICP备xxx号-2
+</div>
+<div class="fl-qa-item" style="box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;z-index: 9999;font-size: 12px;font-family: &quot;Microsoft YaHei&quot; !important;background-color:#FFF;color:#06c29c;text-align:center;position:fixed; width: 60px;height:160px;line-height: 20px;padding-top: 10px;border:1px solid #e5e5e5;right: 0;top:48%;cursor:pointer;">
+	<a style="display:block; color: #06c29c; text-decoration: none;" href="/feedback" target="_blank" class="fl-qa-feedback">
+		<img style="vertical-align: inherit;" src="/static/img/index/pencil.png"><br>我要反馈</a>
+	<div class="fl-qa-qq" style="padding-top: 7px;border-top:1px solid #e5e5e5;">
+		<a style="display:block; color: #06c29c; text-decoration: none;" href="http://wpa.qq.com/msgrd?v=3&uin=114638571&site=qq&menu=yes" target="_blank" title="在线QQ客服">
+		<img style="vertical-align: inherit;" src="/static/img/index/qq.png"><br>QQ咨询</a></div>
+	<div class="fl-qa-qq" style="padding-top: 7px;border-top:1px solid #e5e5e5;">
+		<a style="display:block; color: #06c29c; text-decoration: none;" href="http://wpa.qq.com/msgrd?v=3&uin=114638571&site=qq&menu=yes" target="_blank" title="在线QQ客服">
+		<img style="vertical-align: inherit;" src="/static/img/index/weixin-side.png"><br>关注微信</a></div>
+</div>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery.easing.min.js"></script>
+<script src="/static/js/sugar.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/mediaelement-and-player.min.js"></script>
+<!-- build:js static/all.js-->
+<script src="/static/js/tab.js" type="text/javascript"></script>
+<script src="/static/js/indexAnimate.js" type="text/javascript"></script>
+<!-- <script src="/static/js/serviceAnimate.js" type="text/javascript"></script> -->
+<script src="/static/js/vpcProductAnimate.js" type="text/javascript"></script>
+<script src="/static/js/aboutInit.js" type="text/javascript"></script>
+<script src="/static/js/linkUs.js" type="text/javascript"></script>
+<script src="/static/js/leftNav.js" type="text/javascript"></script>
+<script src="/static/js/checkBrowser.js" type="text/javascript"></script>
+<script src="/static/js/init.js" type="text/javascript"></script>
+<script src="/static/js/trainInit.js" type="text/javascript"></script>
+<!-- endbuild--></div>
+  
+</body></html>
