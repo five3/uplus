@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div style="min-width: 1200px; width: 100%;">
+	<div class="box">
+        <div class="index-about">
+          <div class="title">消息提示</div>
+          <hr>
+          <div class="content">
+          	{{msg}}
+          </div>
+        </div>
+      </div>
+      <div class="nextarticle">
+      {% if pre_article %}
+      	<a href="/article?id={{pre_article.0}}">上一篇：{{pre_article.1}}</a>
+      {% endif %}
+      {% if next_article %}
+      	<a style="float:right;" href="/article?id={{next_article.0}}">下一篇：{{next_article.1}}</a>
+      {% endif %}
+      </div>
+</div>
+
+{% endblock %}
