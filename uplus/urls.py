@@ -15,6 +15,7 @@ urlpatterns = patterns('',
     url(r'^article', 'uplus.views.article', name='article'),
     url(r'^template$', 'uplus.views.template', name='template'),
     url(r'^feedback', 'uplus.views.feedback', name='feedback'),
+    url(r'^yingxiao', 'uplus.views.yingxiao', name='yingxiao'),
     
     url(r'^backend/', include('backend.urls')),
 

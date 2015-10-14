@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <div class="service">
+      <div class="box service-box tab-box">
+        <div class="content-desc" style="margin-top: 5px;">
+          <h2>营销文章</h2>
+          <p>网络营销无处不在，无往不利！</p>
+        </div><hr/>
+        <ul class=" template-nav">
+        {% if yingxiao %}
+            {% for i in yingxiao %}
+              <li>
+                <div class="title" style="line-height:40px;">
+                    <a href="/article?id={{i.0}}"  target="_blank"><span class="temp-content">{{i.1}}</span></a>
+                </div>
+              </li>
+            {% endfor %}
+        {% else %}
+            <li>
+                <span class="temp-content">此负责人夜宿被抓，会尽快召回！</span>
+            </li>
+        {% endif %}
+        </ul>
+      </div><div style="clear:both;"></div>
+      <div class="box service-box tab-box">
+        <div class="content-desc" style="margin-top: 5px;">
+          <h2>营销视频</h2>
+          <p>一边看一边学，效果更佳！</p>
+        </div><hr/>
+        <ul class=" template-nav">
+        {% if yxshipin %}
+            {% for i in yxshipin %}
+              <li>
+                <div class="title" style="line-height:40px;">
+                    <a href="/article?id={{i.0}}"  target="_blank"><img src="{{i.8}}" width="388px" height="285px"></a>
+                </div>
+                <span class="temp-content">{{i.1}}</span>
+              </li>
+            {% endfor %}
+        {% else %}
+            <li>
+                <span class="temp-content">此负责人刑满即将释放！</span>
+            </li>
+        {% endif %}
+        </ul>
+      </div><div style="clear:both;"></div>
+      <div class="box service-box tab-box">
+        <div class="content-desc" style="margin-top: 5px;">
+          <h2>营销培训</h2>
+          <p>百看不如一见，面对面教你学营销</p>
+        </div><hr/>
+        <ul class=" template-nav">
+        {% if peixun %}
+            {% for i in peixun %}
+              <li>
+                <div class="title" style="line-height:40px;">
+                    <a href="/article?id={{i.0}}"  target="_blank"><img src="{{i.8}}" width="388px" height="285px"></a>
+                </div>
+                <span class="temp-content">{{i.1}}</span>
+              </li>
+            {% endfor %}
+        {% else %}
+            <li>
+                <span class="temp-content">此负责人夜宿被抓，会尽快召回！</span>
+            </li>
+        {% endif %}
+        </ul>
+      </div><div style="clear:both;"></div>
+    </div>
+{% endblock %}

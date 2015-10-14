@@ -35,8 +35,12 @@ def about(request):
 def article(request):
     articles = get_article_list(3)
     id = request.GET.get('id', 0)
-    article = get_article_one(id)
-    title = article[0]
+    arti = get_article_one(id)
+    if arti:
+        title = arti[0]
+    else:
+        msg = '你查找的文章跟图片私奔了！有事请拨110'
+        return render_to_response('msg.html', locals())
     next_article = get_next_article(id)
     pre_article = get_pre_article(id)  
     return render_to_response('article.html', locals())
@@ -60,3 +64,10 @@ def feedback(request):
         else:
             msg = '提交反馈失败!'
         return render_to_response('msg.html', locals())
+
+def yingxiao(request):
+    articles = get_article_list(3)
+    yingxiao = get_article_list(4)
+    yxshipin = get_article_list(5)
+    peixun = get_article_list(6)
+    return render_to_response('yingxiao.html', locals())
