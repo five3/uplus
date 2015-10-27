@@ -27,6 +27,14 @@ def template(request):
     temp = fetchall(sql)
     return render_to_response('template.html', locals())
 
+def yingxiao(request):
+    yingxiao_active = 'header-menu-item-active'
+    articles = get_article_list(3)
+    yingxiao = get_article_list(4)
+    yxshipin = get_article_list(5)
+    peixun = get_article_list(6)
+    return render_to_response('yingxiao.html', locals())
+
 def about(request):
     about_active = 'header-menu-item-active'
     articles = get_article_list(3)
@@ -65,9 +73,3 @@ def feedback(request):
             msg = '提交反馈失败!'
         return render_to_response('msg.html', locals())
 
-def yingxiao(request):
-    articles = get_article_list(3)
-    yingxiao = get_article_list(4)
-    yxshipin = get_article_list(5)
-    peixun = get_article_list(6)
-    return render_to_response('yingxiao.html', locals())
