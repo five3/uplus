@@ -60,7 +60,7 @@
 
 .skill-service ul li {
   float: left;
-  width: 135px;
+  width: 175px;
   margin-right: 4%;
   margin-bottom: 35px;
   text-align: center; 
@@ -292,27 +292,27 @@
   border-radius: 100%;
   -moz-border-radius: 100%; /* Firefox */
   -webkit-border-radius: 100%;
-  width: 64px;
+  width: 84px;
   display: inline-block;
-  height: 64px;
+  height: 84px;
   margin: auto;
   cursor: auto;
 }
 
 .service-pic_database {
-  background: url(../img/service/database.png);
+  background: url(../img/product/mianfei.jpg);
 }
 
 .service-pic_big-data {
-  background: url(../img/service/bigdata.png);
+  background: url(../img/product/biaozhun.jpg);
 }
 
 .service-pic_adjustsys {
-  background: url(../img/service/adjustsys.png);
+  background: url(../img/product/biaozhun.jpg);
 }
 
 .service-pic_consult {
-  background: url(../img/service/consult.png);
+  background: url(../img/product/yingxiao.jpg);
 }
 
 .service-pic_datamov {
@@ -324,7 +324,7 @@
 }
 
 .service-pic_publicyun {
-  background: url(../img/service/publicyun.png);
+  background: url(../img/product/dingzhi.jpg);
 }
 
 .service-pic_springextend {
