@@ -5,16 +5,19 @@ from main.foo import fetchall
 from main.controller import * 
 
 def home(request):
+    title = '合肥柚加信息技术有限公司'
     home_active = 'header-menu-item-active'
     articles = get_article_list(3)
     return render_to_response('index.html', locals())
 
 def product(request):
+    title = '合肥建站产品'
     product_active = 'header-menu-item-active'
     articles = get_article_list(3)
     return render_to_response('product.html', locals())
 
 def service(request):
+    title = '合肥建站服务'
     service_active = 'header-menu-item-active'
     articles = get_article_list(3)
     return render_to_response('service.html', locals())
@@ -28,6 +31,7 @@ def template(request):
     return render_to_response('template.html', locals())
 
 def yingxiao(request):
+    title = '合肥网络营销课程'
     yingxiao_active = 'header-menu-item-active'
     articles = get_article_list(3)
     yingxiao = get_article_list(4)
@@ -48,6 +52,7 @@ def article(request):
         title = arti[0]
     else:
         msg = '你查找的文章跟图片私奔了！有事请拨110'
+        title = '小三未找到'
         return render_to_response('msg.html', locals())
     next_article = get_next_article(id)
     pre_article = get_pre_article(id)  
