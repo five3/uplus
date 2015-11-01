@@ -7,6 +7,7 @@ def get_article_list(cate):
 def get_article_one(id):
     sql = '''select articles.title, articles.content, articles.tags, articles.create_date, auth_user.username
                from articles, auth_user where articles.id=%s and articles.user_id=auth_user.id'''  % id
+    # print sql
     return fetchone(sql)
 
 def get_next_article(id):

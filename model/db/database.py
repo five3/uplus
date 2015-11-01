@@ -8,7 +8,8 @@ class database :
     dbObj = None
     #先验证数据库是否存在
     def __init__(self):
-        modelName=settings.DB_TYPE 
+        modelName=settings.DB_TYPE
+        # print settings.ROOT_PATH+'model/db/'+modelName+'.py'
         if os.path.exists(settings.ROOT_PATH+'model/db/'+modelName+'.py') == False:
             raise Exception,'db class file not exists'
         dbList = __import__('model.db.'+modelName,{},{},modelName)

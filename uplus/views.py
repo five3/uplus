@@ -48,6 +48,7 @@ def article(request):
     articles = get_article_list(3)
     id = request.GET.get('id', 0)
     arti = get_article_one(id)
+    # print arti
     if arti:
         title = arti[0]
     else:

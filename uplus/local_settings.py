@@ -20,7 +20,7 @@ DATABASES = {
     }
 }
 
-ROOT_PATH=os.getcwd()+'/uplus/'
+ROOT_PATH=os.getcwd()+'/'
 BASE_PATH=os.path.dirname(ROOT_PATH) + '/'
 LOGIN_URL = '/backend/login/'
 LOGIN_REDIRECT_URL = '/backend/'
